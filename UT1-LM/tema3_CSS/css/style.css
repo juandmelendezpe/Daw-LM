@@ -1,0 +1,13 @@
+body{
+    color: rgb(63, 77, 43);
+}
+table, th, td {
+    border: 1px solid;
+    
+}
+    .titulo{
+        text-align: center;
+    }
+    
+
+
