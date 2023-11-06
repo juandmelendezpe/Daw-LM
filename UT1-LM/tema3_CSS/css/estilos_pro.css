@@ -3,4 +3,11 @@ body{
 }
 table, th,td{
     border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+text-align: center;
+}
+img{
+    width: 240px;
+    height: 140px;
 }
