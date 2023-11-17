@@ -5,10 +5,7 @@ h1,h3{
 body{
     background-color: antiquewhite;
 }
-.fondo_solicitado{
-    background-color: black;
-    color: aliceblue;
-}
+
 footer{
     background-color: blue;
     color: rgb(235, 228, 241);
@@ -26,4 +23,17 @@ footer{
 }
 input{
     display: block;
+}
+
+#naranja{
+    background-color: orangered;
+}
+#celeste{
+    background-color: aqua;
+}
+#yellow{
+    background-color: yellow;
+}
+.fondo4{
+    background-color: blueviolet;
 }

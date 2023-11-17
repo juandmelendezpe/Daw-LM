@@ -15,13 +15,15 @@
 <div class="formulario" >
 
 
-    <form action="" target="_blank" method="post">
+    <form action="http://www.servidorfran.byethost24.com/fran.php" target="_blank" method="post" >
         
         <div class="fondo_solicitado">
-            <fieldset>
+            <fieldset id="naranja">
                 <legend>
                     ¿ Quien Eres ?
                 </legend>
+                <label for="archivo">selecciona foto</label>
+                <input type="file" accept=".jpg">
                 <p><label for="nombre">Nombre:</label>
                     <input type="text" name="nombre">
                 </p>
@@ -42,7 +44,7 @@
         <div>
 
 
-            <fieldset>
+            <fieldset id="celeste">
                 <legend>¿De donde eres</legend>
                 <p>
                     <label for="ciudad">Ciudad</label>
@@ -62,13 +64,15 @@
 
                     </select>
                 </p>
+                <label for="paises">Paises</label>
+                <input >
 
             </fieldset>
         </div>
         <div>
 
 
-            <fieldset>
+            <fieldset id="yellow">
                 <legend>¿Como quieres iniciar seccion</legend>
                 <div>
                     <p>
@@ -93,8 +97,8 @@
             </fieldset>
         </div>
         <div class="fondo_solicitado">
-            <fieldset>
-                <legend>
+            <fieldset class="fondo4">
+                <legend class="fondo4">
                     CONDICIONES DE REGISTROS
                 </legend>
                 <P>Desea recibir ofertas</P>
