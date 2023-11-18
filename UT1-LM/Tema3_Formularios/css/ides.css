@@ -18,13 +18,14 @@ footer{
     text-align: center;
 }
 .formulario{
-    width: 80%;
-    padding-left: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
 }
 input{
     display: block;
 }
-
 #naranja{
     background-color: orangered;
 }
@@ -33,7 +34,25 @@ input{
 }
 #yellow{
     background-color: yellow;
+
+}
+#verde{
+    color: green;
+}
+.letraRoja{
+    color: red;
+}
+.letraBlanco{
+    color: white;
 }
 .fondo4{
     background-color: blueviolet;
+}
+.letraSalmon{
+    color: salmon;
+}	
+.area{
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
 }
