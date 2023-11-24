@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body{
  width:100%;
  height: auto;
@@ -7,7 +10,6 @@ body{
 header{
     width: 100%;
     height: 300px;
-    border: 1px solid red;
     display: flex;
     
 }
@@ -35,8 +37,11 @@ img{
     height: 250px;
     border-radius: 50% ;
     margin: 5px;
-    border: 2px solid white; 
+    border: 4px solid white; 
     margin-left: 25%;
+}
+img:hover{
+    border: 4px solid rgb(231, 238, 34);
 }
 nav {
             display: flex;
@@ -56,8 +61,8 @@ nav {
 		}
 
 		nav a:hover {
-			background-color: #ddd;
-			color: black;
+			background-color: rgb(24, 7, 175);
+			color: rgb(237, 232, 232);
 		}
 
 		nav a.active {
@@ -66,40 +71,66 @@ nav {
 		}
 main{
     width: 100%;
-    height: 750px;
-    border: 1px solid blue;
-
+    height: 890px;
 }
 section{
     width: 100%;
-    height: 70%;
-    border: 1px solid yellow;
+    height: 75%;
     display: flex;
 }
-article{
-    width: 58%;
-    height: 100%;
-    border: 1px solid rgb(10, 135, 151);
-}
+
 .article-Noticias{
+    width: 90%;
+    height: 95%;
+    padding: auto;
+    margin: 5px;
+    font-style: justify;
+    font-size: 1.2rem;
+}
+#letra-a{
+    font-size: 2.2rem;
+    margin: 1px;
+    color: rgb(21, 21, 132);
+}
+legend{
+    font-size: 1.5rem;
+    margin: 1px;
+    color: rgb(21, 21, 132);
+    text-align: center;
+}	
+fieldset{
+    border: 4px solid rgb(21, 21, 132);
+}
+
+#frase1{
+    font-size: 1.5rem;
+    margin: 1px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.article-Noticias-twitter{
     width: 40%;
     height: 100%;
     float: right;
 }
 aside{
     width: 100%;
-    height: 30%;
-    border: 1px solid rgb(151, 10, 10);
+    height: 32%;
+}
+#video1{
+    width: 30%;
+    float: right;
+
 }
 footer{
     width: 100%;
-    height: 100px;
+    height: 35px;
     border: 1px solid green;
     background-color: rgb(10, 10, 85);
     color: #ddd;
-    text-align: center;
-    padding-top: 45px;
     font-size: 1.2rem;
-    position: static;
-    
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
 }
