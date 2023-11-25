@@ -1,153 +1,219 @@
 * {
     box-sizing: border-box;
-  }
-body{
- width:100%;
- height: auto;
- padding: 0px;
- margin: 0px;
 }
-header{
+
+body {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
     width: 100%;
     height: 300px;
     display: flex;
-    
+
 }
-.banner{
+
+.banner {
     width: 65%;
     height: 100%;
     background-image: url('../img/Forbes_logo_black-1.png');
     background-size: cover;
 
 }
-.logo{
+
+.logo {
     width: 35%;
     height: 100%;
     background-color: rgb(10, 10, 85);
     color: #ddd;
-   
-}
-p{
-font-size: 1.2rem;
-margin-top: 0px;
+
 }
 
-img{
+p {
+    font-size: 1.2rem;
+    margin-top: 0px;
+}
+
+.logo img {
     width: 250px;
     height: 250px;
-    border-radius: 50% ;
+    border-radius: 50%;
     margin: 5px;
-    border: 4px solid white; 
+    border: 4px solid white;
     margin-left: 25%;
 }
-img:hover{
+
+img:hover {
     border: 4px solid rgb(231, 238, 34);
 }
+
 nav {
-            display: flex;
-            width: 100%;
-            height: 35px;
-			background-color: #333;
-			overflow: hidden;
-            justify-content: center;
-		}
-
-		nav a {
-			color: white;
-			text-align: center;
-			padding: 8px 21px;
-			text-decoration: none;
-			font-size: 20px;
-		}
-
-		nav a:hover {
-			background-color: rgb(24, 7, 175);
-			color: rgb(237, 232, 232);
-		}
-
-		nav a.active {
-			background-color: #4CAF50;
-			color: white;
-		}
-main{
     width: 100%;
-    height: 890px;
+    height: 50px;
+    background-color: #333;
+    text-align: center;
 }
-section{
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 15px 20px 15px 20px ;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid rgb(246, 246, 250);
+    border-radius: 10px;
+    background-color: rgb(10, 10, 85);
+    color: #ddd;
+    font-size: 1.2rem;
+}
+nav a:hover {
+    color: rgb(198, 240, 31);
+}
+nav .active:hover{
+    color: rgb(85, 45, 245);
+}
+ul:hover {
+    background-color: rgb(24, 7, 175);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+section {
     width: 100%;
     height: 75%;
     display: flex;
+    border: 1px solid green;
 }
 
-.article-Noticias{
-    width: 90%;
+.article-Noticias {
+    width: 65%;
     height: 95%;
-    padding: auto;
-    margin: 5px;
+    margin: 1px;
     font-style: justify;
     font-size: 1.2rem;
+    color: rgb(33, 54, 116);
+    border: 2px solid rgb(234, 10, 59);
 }
-#letra-a{
+
+#letra-a {
     font-size: 2.2rem;
     margin: 1px;
-    color: rgb(21, 21, 132);
+    color: rgb(10, 10, 234);
 }
-legend{
+
+legend {
     font-size: 1.5rem;
     margin: 1px;
-    color: rgb(21, 21, 132);
+    color: rgb(38, 38, 215);
     text-align: center;
-}	
-fieldset{
+}
+
+fieldset {
     border: 4px solid rgb(21, 21, 132);
 }
 
-#frase1{
+#frase1 {
     font-size: 1.5rem;
     margin: 1px;
     text-align: center;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.article-Noticias-twitter{
-    width: 40%;
-    height: 100%;
-    float: right;
-}
-aside{
-    width: 100%;
-    height: 32%;
-}
-#video1{
-    width: 30%;
-    float: right;
+
+.article-Noticias-twitter {
+    width: 38%;
+    height: 90%;
+    margin: 1px;
+    border: 1px solid rgb(234, 10, 36);
 
 }
-footer{
+
+aside {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#video1 {
+    width: 30%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    border: 1px solid rgb(10, 10, 234);
+}
+
+.article-Noticias-twitter img {
+    width: 480px;
+    height: 15%;
+    margin-left: 15px;
+    border: none;
+    padding: 15px;
+
+
+}
+
+.parrafo-aside {
+    width: 70%;
+    height: 100%;
+    font-size: 1.2rem;
+    color: rgb(33, 54, 116);
+    border:  solid rgb(13, 13, 12);
+    border-radius: 10px;
+    margin: 5px;
+    font-style: justify;
+    justify-content: center;
+}
+
+footer {
     width: 100%;
     height: 100px;
     border: 1px solid green;
     background-color: rgb(10, 10, 85);
     color: #ddd;
     font-size: 1.2rem;
-    display: flex;
-}
-.formulario-Footter{
-    width: 100%;
-    height: 50%;
-display: flex;
+    display: block;
     text-align: center;
 }
-#input1{
+
+.formulario-Footter {
+    width: 100%;
+    height: 50%;
+    display: block;
+    padding-top: 3px;
+}
+
+#input1 {
     width: 30%;
     height: 30px;
     border-radius: 5px;
     border: 1px solid rgb(10, 10, 85);
     margin: 5px;
 }
-footer p{
-    margin: 0px;
-    display: flex;
+
+.formulario-Parrafo {
+    width: 100%;
     height: 50%;
-    justify-content: left
+    display: block;
+    text-align: center;
 }
