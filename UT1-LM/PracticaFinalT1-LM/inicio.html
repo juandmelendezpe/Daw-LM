@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Pagina de inicio de la web">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Juan Melendez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <title>inicio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html"  >Inicio</a></li>
+                <li><a href="lenguajeMarcas.html" >Lenguajes de Marcas</a></li>
+                <li><a href="BasesDatos.html" >bases de Datos</a></li>
+                <li><a href="Presentacion.html" target="_blank">Presentacion</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="tablaModulos">
+            <h1>Daw 1 - Modulo de Alonso de Madrigal</h1>
+            <article>
+                <h2>los Modulos de DAW</h2>
+                <p>El modulo de DAW es un modulo de grado superior que se imparte en el instituto Alonso de Madrigal</p>
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h2> Video Compartido de Grado Superior</h2>
+                <p>En este video se explica como es el grado superior de DAW</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EeiF5e_ZFIc?si=mwUjn1YvWYW0QMru" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </article>
+
+        </section>
+        <section class="formulario">
+            <h2>Danos tu informacion acerca de esta web</h2>
+
+            <form action="procesar.php" method="post">
+                <p>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </p>
+                <p>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+
+                </p>
+                <p>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </p>
+                <p>
+
+                    <label for="comentario">Comentario</label>
+                </p>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Comentario" required></textarea>
+              <p>
+
+                  <input id="button-formulario" type="submit" value="Enviar">
+                  <input id="button-formulario" type="reset" value="Borrar">
+              </p>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg" alt="facebook"></a>            <a href="https://www.youtube.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1200px-YouTube_full-color_icon_%282017%29.svg.png" alt="youtube"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" </a>
+            <a href="https://twitter.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png" alt="twitter"></a>
+            <p>Daw - Dam - Asir &copy; Juan Melendez</p>
+        </div>
+    </footer>
+</body>
+</html>

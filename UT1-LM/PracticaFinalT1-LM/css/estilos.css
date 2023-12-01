@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+  }
+  :root {
+    --fondo-button-hover: hsl(40, 100%, 48%);
+    --color-fondo-button: #dd1919;
+    --color_titulo: #0c0cb5;
+    --text-color-white: #f5f5dc;
+    --text-color-black: #000;
+    --color-fondo-ubicacion: #e4e4f0;
+    --color-fondo-prevision: #b3b3cd;
+    --color-fondo-prevision-header: #6269a0;
+    --color-fondo-footer: #1d4d8f;
+    --color-nombrePresentacion: rgb(12, 144, 181);
+  }
+  /*************** body****************/
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+    /*************** header****************/
+header{
+    background-image: url(../imagenes/cabecera.jpg);
+    margin: 0px;
+    padding: 0px;
+    width: 100% ;
+    height: 80px;
+}
+nav{
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    padding: 2%;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    background-color: #dd1919;
+    border-radius: 15px;
+}
+nav ul li a{
+    color: #f5f2f2;
+    text-decoration: none;
+    font-size: 20px;
+}
+header nav ul li a:hover{
+    color: rgb(22, 41, 148);
+    text-decoration: none;
+}
+/*************** main****************/
+main{
+    width: 100%;
+    height: 80%;    
+    background-image: url(../imagenes/fondo.png);
+}
+/*************** section****************/
+section{
+    width: 100%;
+    height: 530px;
+    display: inline-block;
+}
+.tablaModulos{
+    width: 45%;
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.formulario{
+    width: 45%;
+    height: 100%;
+    float: right;
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+#button-formulario{
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+    height: 30px;
+    background-color: var(--color-fondo-button);
+    color: var(--text-color-white);
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+#button-formulario:hover{
+    background-color: var(--fondo-button-hover);
+    color: var(--text-color-white);
+}
+/***************article****************/
+article{
+    width: 100%;
+    height: 100%;
+}
+/*************** footer****************/
+footer{
+    background-image: url(../imagenes/cabecera.jpg);
+    color: #fff ;
+    width: 100%;
+    height: 100px;
+
+}
+footer p{
+    margin-top: 3px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin: 5px;
+    display: inline;
+}
+footer img:hover{
+    border: 3px solid #15b600;
+}
+footer div{
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    display: inline;
+}
+
+/*************** PAGINA PRESENTACION ****************/
+
+#presentacion h1 {
+    text-align: center;
+    font-size: 50px;
+    color: var(--color_titulo);
+}
+#presentacion p{
+    font-size: 30px;
+    text-align: center;
+    color: var(--color-nombrePresentacion );
+    font-weight: bold;
+}
+#presentacion p:hover{
+    color: var(--color_titulo);
+    font-size: 40px;
+    
+}
+
+/* Path: UT1-LM/PracticaFinalT1-LM/css/estilos.css */
