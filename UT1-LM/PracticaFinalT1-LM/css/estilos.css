@@ -116,15 +116,20 @@ footer p{
     padding: 0px;
     font-size: 20px;
     font-weight: bold;
-}
-footer img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 2px solid #ccc;
-    margin: 5px;
+    font-style: italic;
     display: inline;
 }
+footer img{
+    width: 20%;
+    height: 20%;
+    margin: 5px;
+}
+footer .imagenPequeña{
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+}
+
 footer img:hover{
     border: 3px solid #15b600;
 }
@@ -133,6 +138,12 @@ footer div{
     width: 100%;
     text-align: center;
     display: inline;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /*************** PAGINA PRESENTACION ****************/
@@ -153,5 +164,32 @@ footer div{
     font-size: 40px;
     
 }
+/*************** PAGINA BASES DATOS ****************/
+
+.section-BasesDatos{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#section-article1{
+    width: 45%;
+    height: 80%;
+    display: inline-block;
+    border: 1px solid #9b0505;
+}
+#section-article2{
+    width: 45%;
+    height: 80%;
+    display: inline-block;
+    border-left: 2px solid #9b0505;
+    display: inline-block;
+
+}
+.fotter-BasesDatos{
+    width: 100%;
+    height: 150px;
+}
+
+
 
 /* Path: UT1-LM/PracticaFinalT1-LM/css/estilos.css */
