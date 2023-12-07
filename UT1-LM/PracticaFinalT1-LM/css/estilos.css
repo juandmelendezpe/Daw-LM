@@ -102,6 +102,9 @@ article{
     width: 100%;
     height: 100%;
 }
+
+
+
 /*************** footer****************/
 footer{
     background-image: url(../imagenes/cabecera.jpg);
@@ -110,30 +113,39 @@ footer{
     height: 100px;
     text-align: center;
 }
-footer p{
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px;
-}
-footer table{
-    margin: 0px;
-    padding: 0px;
-    width: 80%;
-    height: 100%;
-}
+
 #img-footter-tamaño{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
 }
 footer img{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
 }
 footer a{
     text-decoration: none;
     color: #fff;
+    margin: 10px;
 }
+footer u{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+/***************tabla****************/
 
+table{
+    width: 20%;
+    height: 80%;
+    border-collapse: collapse;
+    display: inline;
+    
+}
+td{
+    font-size: 15px;
+    text-align: center;
+}
 
 
 /*************** PAGINA PRESENTACION ****************/
@@ -163,19 +175,15 @@ footer a{
 }
 #section-article1{
     width: 45%;
-    height: 80%;
+    height: 50%;
     display: inline-block;
     border: 1px solid #9b0505;
 }
 #section-article2{
     width: 45%;
-    height: 80%;
+    height: 50%;
     display: inline-block;
     border-left: 2px solid #9b0505;
     display: inline-block;
 
-}
-.fotter-inicio{
-    width: 100%;
-    height: 20%;
 }
