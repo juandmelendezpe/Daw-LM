@@ -1,0 +1,59 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+article{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}   
+
+footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #333;
+    color: #fff;
+}   
+
+/* Path: UT1-LM/practica-7Maravillas/estilo/estiloMaravillas.css */
