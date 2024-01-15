@@ -1,15 +1,44 @@
 body{
 
     text-align: center;
+    width: 100%;
+    
 }
 table td,th{
-    border: solid 1px }
+    border: solid 1px;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
 h1{
     text-align: center;
 }img{
     width: 180px;
     height: 120px;
+    margin: 10px;
 }
+#bordes{
+    border-collapse: collapse;
+}
+thead{
+    font-size: 28px;
+}
+table{
+    background-color: pink;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    margin-left: 10%;
 
+}
+.blanco{
+    background-color: white;
+    height: 50px;
+}
+.verde{
+    background-color: green;
+}
 
 

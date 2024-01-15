@@ -7,8 +7,9 @@ body{
 h1{
     color: blueviolet;
 }
-#imagen{
-    width: 400px;
+#imagen1{
+    width: 500px;
+    border: solid 5px purple;
 }
 #margen{
     margin-left: 0px;
