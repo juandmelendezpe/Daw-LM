@@ -7,3 +7,17 @@ body{
 h1{
     color: blueviolet;
 }
+#imagen{
+    width: 400px;
+}
+#margen{
+    margin-left: 0px;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+#imagen2{
+    border: solid 5px green;
+    width: 500px;
+}
