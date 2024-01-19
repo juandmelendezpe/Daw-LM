@@ -1,0 +1,17 @@
+body{
+
+    width: 100%;
+}
+[dateTime]{
+    color: red;
+}
+[class^="neg"]{
+font-weight: bold;
+}
+.negrita1{
+    color: blue;
+}
+#especial > h1{
+    color: turquoise;
+    text-decoration: underline;
+}
