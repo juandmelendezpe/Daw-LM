@@ -1,0 +1,22 @@
+#contenedor1{
+    background-color: lightblue;
+}
+
+#contenedor2{
+    background-color: rosybrown;
+}
+
+div div{
+    background-color: purple;
+    width: 30%;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+div div:hover{
+    opacity: 0;
+}
+div::first-line{
+    color: rgb(0, 4, 255);
+}
+

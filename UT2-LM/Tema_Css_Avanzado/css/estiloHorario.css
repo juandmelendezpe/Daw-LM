@@ -1,6 +1,12 @@
 table td ,th{
     border: solid 1px;
 }
-#bordes{
+table{
     border-collapse: collapse;
+    width: 100%;
+    height: 500px;
+}
+section{
+    width: 50%;
+    height: 500px;
 }
