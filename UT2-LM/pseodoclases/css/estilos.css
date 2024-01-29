@@ -19,4 +19,13 @@ div div:hover{
 div::first-line{
     color: rgb(0, 4, 255);
 }
-
+h1::first-line{ color: rebeccapurple;
+}
+.especial::after{
+    content: " soy juan"; 
+    font-weight: bold;
+    color: blue;
+}
+.especial:hover::after{
+    background-color: green;
+}

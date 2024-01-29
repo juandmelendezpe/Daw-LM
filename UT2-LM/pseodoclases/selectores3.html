@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos2.css">
+    <title>iDESWEB</title>
+</head>
+
+<body>
+    <h1>iDEAS WEB</h1>
+    <H3>Formulario de Registros</H3>
+<div class="formulario" >
+
+
+    <form action="http://www.servidorfran.byethost24.com/fran.php" target="_blank" method="post" >
+        
+        <div >
+            <fieldset id="naranja" class="area">
+                <legend >
+                    ¿ Quien Eres ?
+                </legend>
+                <label for="archivo" class="letraBlanco">selecciona foto</label>
+                <input type="file" accept=".jpg">
+                <p><label for="nombre" class="letraBlanco">Nombre:</label>
+                    <input type="text" name="nombre">
+                </p>
+                <p>
+
+                    <label for="Apellidos" class="letraBlanco">Apellidos:</label>
+                    <input type="text" name="apellidos">
+                </p>
+                <p>
+
+                    <label for="fecha">fecha Nacimiento</label>
+                    <input type="date" name="fecha">
+                </p>
+
+
+            </fieldset>
+        </div>
+        <div>
+
+
+            <fieldset id="celeste">
+                <legend >¿De donde eres</legend>
+                <p>
+                    <label for="ciudad">Ciudad</label>
+                    <input type="ciudad" name="ciudad">
+                </p>
+                <p> <label for="codigo_postal">
+                        codigo postal
+                    </label></p>
+                <input type="text" name="codigoPostal">
+                <p>
+                    <label for="Pais" id="verde">Pais</label>
+                    <select name="paises" id="pais">
+                        <option value=" option">Peru</option>
+                        <option value=" option">España</option>
+                        <option value=" option">Italia</option>
+                        <option value=" option">Portugal</option>
+
+                    </select>
+                </p>
+                <label for="paises">Paises</label>
+                <input >
+
+            </fieldset>
+        </div>
+        <div>
+
+
+            <fieldset id="yellow">
+                <legend >¿Como quieres iniciar seccion</legend>
+                <div>
+                    <p>
+                        <label for="usuario" class="letraRoja">Nombre de usuario</label>
+                    </p>
+                    <input type="text">
+                </div>
+                <div>
+                    <p>
+
+                        <label for="password" class="letraRoja">Contraseña</label>
+                    </p>
+                    <input type="text">
+                </div>
+                <div>
+                    <p>
+
+                        <label for="password" class="letraRoja">Vuelve a escribir la contraseña</label>
+                    </p>
+                    <input type="text">
+                </div>
+            </fieldset>
+        </div>
+        <div class="fondo_solicitado">
+            <fieldset class="fondo4">
+                <legend class="letraBlanco" >
+                    CONDICIONES DE REGISTROS
+                </legend>
+                <P class="letraSalmon">Desea recibir ofertas</P>
+                <input type="radio" value="si">Si
+                <input type="radio" value="no">No
+                <p class="letraSalmon">
+                    <input type="checkbox" > Acepto los terminos de servicios
+                </p>
+                <div class="button_crear_cuenta">
+
+                    <input type="submit" value="Crear cuenta">
+                </div>
+            </fieldset>
+        </div>
+
+
+    </form>
+</div>
+
+    <footer>
+
+        todos los derechos reservados
+    </footer>
+
+</body>
+
+</html>

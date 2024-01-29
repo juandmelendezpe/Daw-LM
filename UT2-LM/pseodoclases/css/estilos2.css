@@ -1,0 +1,87 @@
+h1,h3{
+ text-align: center;
+}
+
+body{
+    background-color: rgb(241, 235, 226);
+}
+
+footer{
+    background-color: blue;
+    color: rgb(235, 228, 241);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+.button_crear_cuenta{
+    text-align: center;
+}
+.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+input{
+    display: block;
+}
+#naranja{
+    background-color: orangered;
+}
+#celeste{
+    background-color: aqua;
+}
+#yellow, #yellow > legend{
+    background-color: yellow;
+
+}
+#verde{
+    color: green;
+}
+.letraRoja{
+    color: red;
+}
+.letraBlanco{
+    color: white;
+}
+.letraSalmon{
+    color: salmon;
+}	
+.area{
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
+}
+.fondo4{
+    background-color: blueviolet;
+}
+
+/* JUASTES AVANZADOS */
+label:hover{
+    font-size: xx-large;
+}
+input:hover{
+    background-color: yellow;
+}
+#naranja input:hover{
+    background-color: rgb(24, 212, 33);
+}
+#celeste input:hover{
+    background-color: chocolate;
+}
+#yellow input:hover{
+    background-color: cornflowerblue;
+}
+input:focus{
+    background-color: green;
+}
+#naranja::before{
+    content: "🎁";
+}
+input[type="text"]{
+    border-radius: 10px;
+}
+#naranja legend{
+    background-color: blue;
+}
