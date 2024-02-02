@@ -19,14 +19,13 @@ footer{
 }
 .formulario{
     width: 100%;
-    display: flex;
     justify-content: center;
     border: 1px solid red;
 }
 input{
     display: block;
 }
-#naranja{
+#naranja legend{
     background-color: orangered;
 }
 #celeste{
@@ -67,6 +66,9 @@ input:hover{
 #naranja input:hover{
     background-color: rgb(24, 212, 33);
 }
+#naranja legend{
+
+}
 #celeste input:hover{
     background-color: chocolate;
 }
@@ -85,3 +87,4 @@ input[type="text"]{
 #naranja legend{
     background-color: blue;
 }
+

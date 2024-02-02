@@ -1,0 +1,41 @@
+body{
+    
+    background-color: #33ec80;
+    color: white;
+}
+#padre{
+    background-color: #842222;
+}
+#padre>:first-child{
+    background-color: #0511f2;
+}
+#padre>div div{
+    background-color: #ffdeac;
+    margin-bottom: 0.5em;
+    width: 20%;
+    color: black;
+}
+/**  ESTILOS PARA EL SEGUNDO DIV*/
+table  td, th{
+    border: solid;
+    
+}
+table{
+    border-collapse: collapse;
+
+}
+#padre>:nth-child(2){
+    background-color: #05f2db;
+}
+#padre>:nth-child(2) h1{
+    color: green;
+}
+thead th{
+    background-color: #f382ec;
+}
+tbody>:first-child{
+    background-color: hsl(120,7%,50%);
+}
+tbody>:nth-child(2){
+    background-color: #b8850d;
+}
