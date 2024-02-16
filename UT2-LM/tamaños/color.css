@@ -5,9 +5,15 @@ body{
 }
 #padre{
     background-color: #842222;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+
 }
 #padre>:first-child{
     background-color: #0511f2;
+    color: white;
+    
 }
 #padre>div div{
     background-color: #ffdeac;

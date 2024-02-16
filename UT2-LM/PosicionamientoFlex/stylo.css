@@ -53,6 +53,9 @@ section div{
     justify-content: space-around;
     margin: 5px;
     background-color: rgb(17, 17, 6);
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 1px rgb(133, 116, 245);
 }
 aside div{
 background-color: rgb(41, 39, 38);
