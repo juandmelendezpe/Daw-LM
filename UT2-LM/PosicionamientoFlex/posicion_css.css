@@ -1,0 +1,52 @@
+.bloque1{
+    position: absolute;
+    width: 70%;
+    height: 6.2em;
+    background-color: gray;
+    color: white;
+    top: 3em;
+    left: 1em;
+    z-index: 1;
+}
+.bloque2{
+    width: 60%;
+    background-color: lightgreen;
+    height: 30em;
+    position: relative;
+    left: 2em;
+    top: 1em;
+}
+.bloque3{
+    height: 10em;
+    background-color: yellow;
+
+}
+.hijo1{
+    width: 60%;
+    background-color: lightpink;
+    height: 7em;
+    position: absolute;
+    bottom: 1em;
+    left: 2em;
+
+}
+.hijo2{
+    width: 30%;
+    height: 80%;
+    background-color: blueviolet;
+    position: relative;
+    left: 30%;
+    top: -1em;
+
+}
+.hijo3{
+    width: 80%;
+    height: 10%;
+    background-color: blue;
+    position: absolute;
+    left: 2em;
+    top: 7em;
+    color: white;
+    margin: 0em;
+    
+}
