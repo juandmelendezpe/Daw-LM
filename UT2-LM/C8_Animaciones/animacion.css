@@ -1,0 +1,53 @@
+div{
+    width: 11.25rem;
+    height: 11.25rem;
+    border:solid 1px black;
+
+}
+div:hover{
+    /* PRIMERA TRANSICION */
+    transition: background-color 2s 0s;
+    background-color: aqua;
+        /* SEGUNDA TRANSICION */
+
+    transition-delay: 1s;
+    transition: font-size 2s 0s;
+    font-size: x-large;
+        /* TERCERA TRANSICION */
+    transition: color 2s 0s;
+    color:red;
+        /* cuarta TRANSICION */
+     transition: line-height 2s 0s;
+    line-height: 5rem;
+        /* quinta TRANSICION */
+        transition: border-radius 2s 0s;
+        border-radius: 2rem 2rem 0 0 ;
+        /* sexta TRANSICION */
+        transition: box-shadow 2s 0s;
+        box-shadow: 0 0 4rem yellow;
+        /* septima TRANSICION */
+        transition: transform 2s 0s;
+        transform: scale(0.5);
+        /* octava TRANSICION */
+        transition: transform 2s 0s;
+        transform: rotate(90deg);
+        /* novena TRANSICION */
+        transition: transform 2s 0s;
+        transform: skew(5deg);
+
+
+}
+
+body{
+    background-image:url("./img/madrid.jpg " );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+/**div:not(:hover){
+    transition-delay: 1s;
+    transition: font-size 2s 0s;
+    font-size: x-large;
+}*/
+

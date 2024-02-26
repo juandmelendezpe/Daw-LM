@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Groucho titulo';
+    src: url('./fonts/Groucho.ttf');
+}
+@font-face {
+    font-family: 'Groucho cuerpo';
+    src: url('./fonts/Groucho.ttf');
+}
+img{
+    width: 100%;
+
+}
+figure{
+    width: 10%;
+    padding: 0.2rem;
+    border-radius: solid 1px black;
+    margin: 0.5rem;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Groucho titulo';
+    
+}
+p{
+    font-family: 'Groucho cuerpo';
+    width: 80%;
+}
+body>p:nth-child(2n){
+    border-style: none double double none;
+    border-width: 5px;
+    border-color: rgb(68, 59, 59);
+    border-radius: 0 0  0.5rem 0;
+    position: relative;
+    right: 0rem;
+}
+body>p:nth-child(2n+1){
+    border-style: dashed none none dashed;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 0.5rem 0 0 0 ;
+    
+}

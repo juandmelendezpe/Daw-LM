@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: 35%;
+    border: solid 1px #000;
+    color: #fff;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+    height: 70%;
+    border: solid 1px #12d423;
+}
+.logo_Menu{
+    width: 100%;
+    height: 30%;
+    border: solid 1px #a01f1f;
+    color: #fff;
+    text-align: center;
+}
+
+
