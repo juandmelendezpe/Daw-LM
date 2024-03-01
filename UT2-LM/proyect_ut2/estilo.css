@@ -1,32 +1,96 @@
+:root{
+    --color--azul--pricipal: #013369;
+    --color--azul--claro: #70acec;
+    --color--rojo--pricipal: #D50A0A;
+    --color--gris--footer: #1F1F1F;
+    --color--bg--fondoPagina: #eeeeee;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 header{
     width: 100%;
-    height: 35%;
-    text-align: center;
-    background-color:red
-}
-header figure{
-    width: 15%;
-    height: 100%;
-
-
-}
-body h1:nth-child(2){
-    color: #380cec;
+    height: 45%;
     text-align: center;
 }
 .banner{
-    width: 100%;
+    width: 90%;
     height: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5em;
+    background-color:var(--color--azul--pricipal);
+}
+.banner-Titulo{
+    width: 35%;
+    height: 50%;
+    margin-top: 5em;
+  
+}
+.banner-Titulo span:first-child{
+    font-size: 1em;
+    font-weight: bold;
+    color:var(--color--rojo--pricipal);
+    text-shadow: 0 0 10px white;
+
+
+    
+}
+.banner-Titulo p:nth-child(1){
+    text-decoration: underline;
+    color: white;
+}
+.banner-Equipos{
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+}
+.banner-Equipos div{
+    width: 50%;
+    height: 48%;
+   
+}
+.banner-Equipos p{
+    width: 50%;
+    display: inline-block;
+    color: white;
+}
+
+.banner-Equipos figure{
+    width: 12%;
+   
+    display: inline-block;
+    margin-left: 0;
+
+}
+.banner-Equipos figure img{
+    width: 100%;
+    height: 100%;
 }
 .logo_Menu{
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
     height: 30%;
     text-align: center;
+    background-image: linear-gradient(to bottom,var(--color--rojo--pricipal), var(--color--azul--pricipal ));
+    margin-left: 5em;
+    box-shadow: 0 0 10px 0 black;
+}
+.logo_Menu figure{
+    width: 10%;
+    height: 100%;
 }
 nav{
-    width: 80%;
-    height: 70%;
+    margin-top: 3em;
+    width: 70%;
+    height: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+
 }
 nav ul{
     list-style: none;
@@ -34,59 +98,115 @@ nav ul{
     margin: 0;
 }
 nav ul li{
-    display: inline;
-    margin: 0 10px;
+    display: inline-block;
     font-size: 1.5em;
+    width: 8em;
+    height: 1em;
+    margin: 0.5em;
 }
 nav ul li a{
+    color: white;
     text-decoration: none;
-    color: #000;
 }
-nav ul li:hover{
-    color: #ff0000;
-;
+nav ul li a:hover{
+    color:black;
+    text-decoration: underline;
+   
 }
+.titulo-Principal{
+    width: 90%;
+    height: 5%;
+    text-align: center;
+    color: var(--color--azul--pricipal);
+    box-shadow: 0 0 10px 0 black;
+    display: inline-block;
+    margin-left: 0.5em;
 
+}
+/** MAIN *********************/
 main{
-    width: 100%;
+    width: 90%;
     height: 50%;
-    border: solid 1px #290a7f;
+    border: solid 1px var(--color--azul--pricipal);
+    display: inline-block;
+    margin-left: 5em;
+    background-color: var(--color--bg--fondoPagina);
 }
 .container{
     width: 100%;
-    height: 100%;
-    border: solid 1px #dd1259;
-display: inline-block;
+   display: inline-block;
 }
-.img_1{
-    width: 50%;
-    height: 80%;
-    border: solid 1px #0e0e0e;
+.img_Stadio{
+    width: 38%;
     display: inline-block;
 }
-figure{
-    width: 100%;
-    height: 100%;
+.img_Stadio figure{
+    width: 95%;
+    height: 90%;
+    margin: 0;
+    margin-top: 1em;
+    margin-left: 2em;
 }
-figure img{
-    width: 90%;
+ figure img{
+    width: 95%;
+
 }
 .content_text{
-    width: 45%;
-    height: 80%;
+    width: 60%;
+    height: 90%;
+    font-size: 0.98em;
     display: inline-block;
+    margin:0;
+    
+
 }
-article{
+.content_text li > span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.content_text p {
+    color: var(--color--rojo--pricipal);
+    font-weight: bold;
+}
+.content_text p:first-child{
+    font-size: 0.9em;
+    color:black;
+    text-align: center;
+}
+
+section{
     width: 100%;
-    height: 18%;
-    border: solid 1px #c6eb0a;
+    height: auto;
+}
+section p{
+    text-align: justify;
+    margin-left: 2em;
+    font-size: 0.9em;
 }
 
 /** FOOTER **/
 footer{
     width: 100%;
-    height: 20%;
+    height: 30%;
     text-align: center;
     color: white;
-    background-color: #290a7f;
+    background-color: var(--color--azul--pricipal);
+}
+.ListaEquipos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color--gris--footer);
+    
+}
+footer div{
+    width: 11%;
+    height: 100%;
+    
+}
+.footerLogo{
+    
+    width: 15%;
+    margin-left: 35em;
 }
