@@ -6,16 +6,20 @@
     font-family: 'Groucho cuerpo';
     src: url('./fonts/Groucho.ttf');
 }
+body{
+    background-color: rgb(125, 207, 125);
+}
+
 img{
     width: 100%;
-
+    height: 100%;
+    
 }
 figure{
     width: 10%;
     padding: 0.2rem;
-    border-radius: solid 1px black;
+    border-radius: solid 4px black;
     margin: 0.5rem;
-
 }
 header{
     display: flex;
@@ -23,24 +27,55 @@ header{
 }
 h1{
     font-family: 'Groucho titulo';
-    
 }
 p{
     font-family: 'Groucho cuerpo';
     width: 80%;
 }
-body>p:nth-child(2n){
+ main{
+    width: 80%;
+    margin: 0 auto;
+ }
+main>p:nth-child(2n){
     border-style: none double double none;
-    border-width: 5px;
+    border-width: 3px;
     border-color: rgb(68, 59, 59);
     border-radius: 0 0  0.5rem 0;
     position: relative;
-    right: 0rem;
+    left: 20%;
+    background-color: white;
 }
-body>p:nth-child(2n+1){
+main>p:nth-child(2n+1){
     border-style: dashed none none dashed;
-    border-width: 5px;
+    border-width: 3px;
     border-color: green;
     border-radius: 0.5rem 0 0 0 ;
-    
+    position: relative;
+    right:20%;
+
+
+}
+
+
+#especial{
+    border: none;
+    background-color: none;
+    text-align: right ;
+    font-family: 'Times New Roman', Times, serif;
+}
+#oculto{
+    visibility: hidden;
+}
+
+#flecha{
+    width: 10%;
+    height: 10%;
+    transform: rotate(0deg);
+    transition: 0.1s;
+    display: inline-block;
+
+}
+#flecha:hover{
+    transform: rotate(90deg);
+    transition: 0.5s;
 }
