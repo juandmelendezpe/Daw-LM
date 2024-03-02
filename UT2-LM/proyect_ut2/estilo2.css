@@ -1,0 +1,310 @@
+:root{
+    --color--azul--pricipal: #013369;
+    --color--azul--claro: #70acec;
+    --color--rojo--pricipal: #D50A0A;
+    --color--gris--footer: #1F1F1F;
+    --color--bg--fondoPagina: #eeeeee;
+    --color--white: white;
+
+
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+   
+}
+
+/** BANNER *********************/
+.container-header-banner{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner-Titulo{
+    width: 30%;   
+    background-color:var(--color--azul--pricipal);
+    display: inline-block;
+    text-align: center;
+    
+}
+.banner-Titulo span:first-child{
+    font-size: 1em;
+    font-weight: bold;
+    color:var(--color--rojo--pricipal);
+    text-shadow: 0 0 10px var(--color--white);
+}
+.banner-Titulo p:nth-child(1){
+    text-decoration: underline;
+    color: var(--color--white);
+    margin-top: 5em;
+}
+.banner-Equipos{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    background-color:var(--color--azul--pricipal);
+}
+.banner-Equipos div{
+    width: 50%;
+    height: 48%;
+    border: solid 1px var(--color--white);
+    display: inline-block;
+    
+}
+.banner-Equipos p{
+    width: 50%;
+    color: var(--color--white);
+    display:inline;
+    padding: 4em;
+}
+
+.banner-Equipos figure{
+    width: 15%;
+    display: inline-block;
+    margin-left: 0;
+    border: solid 1px var(--color--white);
+
+}
+.banner-Equipos figure img{
+    width: 100%;
+    height: 100%;
+}
+.container-header-logoMenu{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: linear-gradient(to bottom,var(--color--rojo--pricipal), var(--color--azul--pricipal ));
+    box-shadow: 0 0 10px 0 black;
+}
+.container-header-logoMenu figure{
+    width: 10%;
+    height: 100%;
+}
+nav{
+    margin-top: 3em;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 1.1em;
+    width: 12em;
+    height: 1em;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:black;
+    text-decoration: underline;
+   
+}
+.container-header-Titulo{
+    width: 100%;
+    height: 15%;
+   display: inline-block;
+    
+    text-align: center;
+    color: var(--color--azul--pricipal);
+    box-shadow: 0 0 10px 0 black;
+}
+/** MAIN *********************/
+main{
+    width: 90%;
+    height: 50%;
+    border: solid 1px var(--color--azul--pricipal);
+    display: inline-block;
+    margin-left: 5em;
+    background-color: var(--color--bg--fondoPagina);
+}
+.container{
+    width: 100%;
+   display: inline-block;
+}
+.img_Stadio{
+    width: 38%;
+    display: inline-block;
+}
+.img_Stadio figure{
+    width: 95%;
+    height: 90%;
+    margin: 0;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+ figure img{
+    width: 95%;
+
+}
+.content_text{
+    width: 60%;
+    height: 90%;
+    font-size: 0.98em;
+    display: inline-block;
+    margin:0;
+    
+
+}
+.content_text li > span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.content_text p {
+    color: var(--color--rojo--pricipal);
+    font-weight: bold;
+}
+.content_text p:first-child{
+    font-size: 0.9em;
+    color:black;
+    text-align: center;
+}
+
+section{
+    width: 100%;
+    height: auto;
+}
+section p{
+    text-align: justify;
+    margin-left: 2em;
+    font-size: 0.9em;
+}
+
+/** FOOTER **/
+footer{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    color: white;
+    background-color: var(--color--azul--pricipal);
+}
+.ListaEquipos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color--gris--footer);
+    
+}
+footer div{
+    width: 11%;
+    height: 100%;
+    
+}
+.footerLogo{
+    
+    width: 15%;
+    margin-left: 35em;
+}
+/**
+ESTILOS DE LA PAGINA DE CONTACTO
+*/
+#main-contacto{
+    width: 90%;
+    height: 100%;
+    background-color: var(--color--bg--fondoPagina);
+}
+
+#main-contacto h1{
+    width: 100%;
+    text-align: center;
+    color: var(--color--azul--pricipal);
+}
+#container_contacto{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin-left: 12%;
+}
+#container_contacto form{
+    width: 100%;
+    height: 100%;
+    
+}
+#info-adicional{
+    width: 100%;
+    height: 40%;
+    margin-top: 2em;
+
+}
+
+#container_contacto form legend{
+    width: 25%;
+    text-align: center;
+    font-size: 1em;
+    color: var(--color--azul--pricipal);
+    margin-bottom: 2em;
+    margin-top: 5em;
+    background-color: var(--color--rojo--pricipal);
+    color: white;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 black;
+}
+#container_contacto form label{
+    width: 100%;
+    display: block;
+    margin-top: 1em;
+    font-size: 1.1em;
+    color: var(--color--azul--pricipal);
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+#container_contacto form input[type="text"] {
+    width: 30%;
+    height: 2em;
+    border: solid 1px var(--color--azul--pricipal);
+    padding: 0.4em;
+margin-right: 15em;}
+#container_contacto form textarea{
+    width: 50%;
+    height: 5em;
+    border: solid 1px var(--color--azul--pricipal);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+#container_contacto form input[type="submit"]{
+    width: 20%;
+    height: 2em;
+    background-color: var(--color--rojo--pricipal);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1.5em;
+    margin-left: 40%;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+#container_contacto form input[type="submit"]:hover{
+    background-color: var(--color--azul--claro);
+}
+#container_contacto form input[type="submit"]:active{
+    background-color: var(--color--azul--pricipal);
+    margin-top: 1.5em;
+}
+#container_contacto form input[type="submit"]:focus{
+    background-color: var(--color--rojo--pricipal);
+    margin-top: 1.5em;
+}

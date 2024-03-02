@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo2.css">
+
+    <title>contacta con nosotros</title>
+</head>
+<header>
+    <div class="banner">
+        <div class="banner-Titulo">
+            <p><span> ! ULTIMA HORA ¡</span> RESULTADOS SUPERBOWL VLIII</p>
+        </div>
+        <div class="banner-Equipos">
+            <div>
+                <figure>
+                    <img src="./imagenes/logos/1.svg" alt="nfl">
+                </figure>
+                <p>SAN FRANCISCO 49'ers  22</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="./imagenes/logos/2.svg" alt="nfl">
+                </figure>
+                <p>KANSAS CITY CHIEFS  25</p>
+            </div>
+        </div>
+    </div>
+        <div class="logo_Menu">
+        <figure>
+            <img src="./imagenes/logo.png" alt="logo" title="logo_pricipal">
+        </figure>
+        <nav>
+               <ul>
+                <li> <a href="Inicio.html">Inicio</a></li>
+                <li> <a href="conocenos.html">Conocenos</a></li>
+                <li> <a href="productoComercial.html">Productos Comerciales</a></li>
+                <li> <a href="Contacto.html">Contacta Con Nosotros</a></li>
+                </ul>
+        </nav>
+    </div>
+
+</header>
+<main id="main-contacto">
+    <h1>Registrate como Usuario y te enviaremos Ofertas Exclusivas</h1>
+        <section id="container_contacto">
+            <form action="enviar.php" method="post">
+                
+                    <fieldset>
+                        <legend>DATOS PERSONALES</legend>
+                        <label for="nombre">Nombre:
+                            <input type="text" placeholder="Nombre" name="nombre" id="nombre" required>
+                        </label>
+                        <label for="apellidos">Apellidos:
+                            <input type="text" placeholder="Apellidos" name="apellidos" id="apellidos" required>
+                        </label>
+                        <label for="email">Email:
+                            <input type="email" name="email" placeholder="Email" required>
+                        </label>
+                        <label for="contraseña">Contraseña:(minino 8 caracteres)
+                            <input type="password" name="contraseña" required  minlength="8">
+                        </label>
+
+                    </fieldset>
+                    <fieldset id="info-adicional">
+                        <legend>INFORMACION ADICIONAL</legend>
+
+                        <label for="pais">Pais:
+
+                            <select name="pais" id="selct_pais">
+                                <option value="selecciona">--Selecciona--</option>
+                                <option value="selecciona">España</option>
+                                <option value="selecciona">Portugal</option>
+                                <option value="selecciona">Colombia</option>
+                                <option value="selecciona">Argentina</option>
+                            </select>
+
+                        </label>
+                        <label for="sexo">sexo:
+                                <input type="radio" name="hombre" value="1" id="option1" >Hombre
+                                <input type="radio" name="mujer" value="2" id="option2" >Mujer
+                                <input type="radio" name="ninguno" value="3" id="option3">Prefiero no contestar
+                        </label>
+                        <label for="aspecto">Aspectos de interes sobre el fulbol americano
+                        </label>
+                        <label for="txt_Area">
+                            <textarea name="txt_Area" id="txt_Area" cols="40" rows="20"  > </textarea>
+                        </label>
+
+                        <label for="condiciones">Acepto las condiciones de suscripcion y he leido la proteccion de DATOS
+                            <input type="checkbox" required>
+                        </label>
+                    </fieldset>
+                    <input type="submit" name="suscribirme" value="Suscribirme" accept="enviar" >
+            </form>
+        </section>
+
+        <footer>
+            <div class="ListaEquipos">
+                <div>
+                    <h4>AFC NORTE</h4>
+                    <figure>
+                        <img src="./imagenes/logos/1.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/2.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/3.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/4.svg" alt="nfl">
+                    </figure>
+                </div>
+                <div>
+                    <h4>AFC SUR</h4>
+                    <figure>
+                        <img src="./imagenes/logos/5.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/6.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/7.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/8.svg" alt="nfl">
+                    </figure>
+                </div>
+                <div>
+                    <h4>AFC ESTE</h4>
+                    <figure>
+                        <img src="./imagenes/logos/9.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/10.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/1.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/12.svg" alt="nfl">
+                    </figure>
+                </div>
+                <div>
+                    <h4>AFC OESTE</h4>
+                    <figure>
+                        <img src="./imagenes/logos/13.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/14.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/15.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/16.svg" alt="nfl">
+                    </figure>
+                </div>
+                <div>
+                <h4>NFC NORTE</h4>
+                    <figure>
+                        <img src="./imagenes/logos/17.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/18.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/19.svg" alt="nfl">
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/20.svg" alt="nfl">
+    
+                    </figure>
+                </div>
+                <div>
+                    <h4>NFC SUR</h4>
+                    <figure>
+                        <img src="./imagenes/logos/21.svg" alt="nfl">
+
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/22.svg" alt="nfl">
+
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/23.svg" alt="nfl">
+
+                    </figure>
+                    <figure>
+                        
+                        <img src="./imagenes/logos/24.svg" alt="nfl">
+    
+                    </figure>
+                </div>
+                <div>
+                    <h4>NFC ESTE</h4>
+                    <figure>
+                        <img src="./imagenes/logos/25.svg" alt="nfl">
+
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/26.svg" alt="nfl">
+
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/27.svg" alt="nfl">
+
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/28.svg" alt="nfl">
+    
+                    </figure>
+                </div>
+                <div>
+                    <h4>NFC OESTE</h4>
+                    <figure>
+                        <img src="./imagenes/logos/29.svg" alt="nfl">
+
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/30.svg" alt="nfl">
+
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/31.svg" alt="nfl">
+
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/logos/32.svg" alt="nfl">
+
+                    </figure>
+                </div>
+
+
+              
+            </div>
+            <h3>Esta pagina esta realizada como trabajo 
+                practico evaluable de Lenguaje de Marcas</h3>
+            <h3>Propuesta y diseñada por el profesor Francisco Ruiz</h3>
+            <div class="footerLogo">
+                <figure>
+                    <img src="./imagenes/logo.png" alt="logo">
+                </figure>
+            </div>
+        </footer>
+
+
+    </main>
+    
+</body>
+</html>
