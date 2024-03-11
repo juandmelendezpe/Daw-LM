@@ -60,8 +60,111 @@ header{
     display:inline;
     padding: 4em;
 }
+/*
+--->>>>>>>>>>>>>>>>>> ESTILOS DE LA PAGINA INICIO <<<<<-------------------
+*/
+
+
+
+
+.inicio-section-1{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color--bg--fondoPagina);
+}
+.inicio-section-1 figure{
+    width: 100%;
+    height: 80%;
+    margin: 0;
+}
+.inicio-section-1 figure img{
+    width: 100%;
+    height: 100%;
+}
+.inicio-section-2{
+    width: 100%;
+    background-color: var(--color--bg--fondoPagina);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+
+}
+.inicio-section-2 article{
+    width: 30%;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color--rojo--pricipal);
+    color: var(--color--white);
+    font-size: 0.7em;
+
+}
+.inicio-article1{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.inicio-article1 p{
+    width: 90%;
+    height: 100%;
+    text-align: justify;
+    font-size:  1.2em;
+    position: relative;
+}
+
+.inicio-article1 figure{
+    width: 30%;
+    height: 45%;
+    float: right;
+    margin-right: 1em;
+    position: relative;
+    top: 0;
+}
+.inicio-article1 figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.inicio-article1 figcaption{
+    font-size: .9em;
+    color: var(--color--azul--claro);
+}
+
+#inicio-article2-titulo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    border: solid 1px var(--color--white);
+}
+#inicio-article1-titulo p{
+    font-size: 1.2em;
+    color: var(--color--azul--claro);
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#inicio-article2-video1{
+    width: 90%;
+    height: 90%;
+    left: 2em;
+    display: inline-block;
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 2em;
+   
+}
+#inicio-article2-video1 iframe{
+    width: 100%;
+    height: 100%;
+}
+
 /**
-EN ESTA PARTE SE MODIFICAR A LOS HERMANOS DIRECTOS DE LOS DIVS
+EN ESTA PARTE SE MODIFICAR A LOS HERMANOS DIRECTOS DE LOS DIVS - pagina conocenos
 
 */
 .banner-Equipos>div{
@@ -140,7 +243,7 @@ main{
     height: 50%;
     border: solid 1px var(--color--azul--pricipal);
     display: inline-block;
-    margin-left: 5em;
+    margin-left: 4.7em;
     background-color: var(--color--bg--fondoPagina);
 }
 .container{
@@ -158,7 +261,7 @@ main{
     margin-top: 1em;
     margin-left: 2em;
 }
- figure img{
+figure img{
     width: 95%;
 
 }

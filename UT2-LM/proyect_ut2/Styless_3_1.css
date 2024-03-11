@@ -1,0 +1,105 @@
+ body{
+    background-color: #eeeeee;
+ }
+ 
+ /* Estilos para el botón */
+ .boton-comprar {
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: #FF0000; 
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30%; 
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición de color al pasar el ratón */
+}
+
+/* Cambio de color al pasar el ratón */
+.boton-comprar:hover {
+    background-color: #808080; 
+}
+
+/*Posicionamiento casco*/
+
+body .casco{
+display: flex;
+margin-inline: 9%;
+}
+body .casco div{
+    flex: 1;
+    padding: 2%;
+}
+/* fondos y letras */
+body .casco div img , body .dos .balon div img, body .dos .camisa div img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
+body .casco .im , body  .dos .balon .im, body .dos .camisa .im{
+    width: auto; 
+    height: auto; 
+    background-color: #FFFFFF;
+}
+body .casco .text, body .dos .balon .text, body .dos .camisa .text{
+    text-align: center;
+    background-color: #013369;
+    color: #FFFFFF;
+}
+body h6{
+    color: #FF0000;
+}
+body h3{
+    text-align: center;
+    color: #013369;
+}
+
+body .casco h3 , body .dos .balon h3, body .dos .camisa h3{
+    color: #FFFFFF;
+}
+
+/* posicionamiento balon y camisa*/
+
+body .dos .balon div, body .dos .camisa div{
+    padding: 10px;
+}
+
+body .dos{
+    display: flex;
+    margin-inline: 7%;
+}
+body .dos .balon , body .dos .camisa{
+    flex: 1;
+    padding: 2%;
+}
+ /* Posicionamiento y color pie de pagina*/
+
+ h6{
+    color: #e6ecf3;
+    text-align: center;
+  }
+ 
+  footer .g{
+    background-color: #1F1F1F;
+    
+      display: grid;
+      grid-template-columns: repeat(8, 1fr); /* dividir el escpacio en comunas */
+      overflow: hidden; /* evita que la información se salga por la derecha */
+  }
+
+  .marcado{
+    color: #D50A0A;
+  }
+
+footer .az{
+  padding: 2%;
+  color: #e6ecf3;
+  background-color: #013369;
+  text-align: center;
+}
+
+footer div{
+  margin-top: -5%;
+}
+footer{
+    margin-block: 5%;
+}
