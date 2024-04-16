@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejemplo xmlns="http://www.abrirllave.com/ejemplo1">
+    <carta>
+        <palo>corazones</palo>
+        <numero>7</numero>
+    </carta>
+
+    <carta xmlns="http://www.abrirllave.com/ejemplo2">
+        <carnes>
+            <filete_de_ternera precio="12.90"/>
+            <chuleton_de_buey precio="20.90"/>
+        </carnes>
+    <pesacados xmlns="http://www.abrirllave.com/ejemplo3">
+        <lubina precio="15.90"/>
+        <merluza precio="10.90"/>
+    </pesacados>
+    </carta>
+</ejemplo>

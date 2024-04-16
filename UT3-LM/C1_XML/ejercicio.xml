@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <cliente>
+        <dni>11111111a</dni>
+        <nombre>luis</nombre>
+        <calle>bravo murillo</calle>
+        <ciudad>madrid</ciudad>
+    </cliente>
+    <cliente>
+        <dni>22222222b</dni>
+        <nombre>juan</nombre>
+        <calle>melendez rock</calle>
+        <ciudad>avila</ciudad>
+    </cliente>
+        <cliente>
+            <dni>33333333a</dni>
+            <nombre>luis</nombre>
+            <calle>bravo murillo</calle>
+            <ciudad>madrid</ciudad>
+        </cliente>
+    </clientes>
