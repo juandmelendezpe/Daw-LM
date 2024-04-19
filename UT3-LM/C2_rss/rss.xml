@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+    <chanel>
+        <title>UT3-LM</title>
+        <link>http://localhost/UT3-LM/C2_rss/rss.xml</link>
+        <description>UT3-LM</description>
+       <!-- COMPONENSTES DE LA IMAGEN-->
+        <imagen><url>
+
+       </url>
+
+       </imagen>
+       <categoria>Estudios</categoria>
+       <copyright> Fran Ruiz</copyright>
+        <!-- COMPONENTES DEL CANAL-->
+       <item>
+            <title>Titre 1</title>
+            <link>http://localhost/UT3-LM/C2_rss/rss.xml</link>
+            <description>Description 1</description>
+        <content url="http://localhost/UT3-LM/C2_rss/rss.xml" medium="image"  >Contenido 1</content>
+        </item>
+
+        <item>
+            <title>Titre 2</title>
+            <link>http://localhost/UT3-LM/C2_rss/rss.xml</link>
+            <description>Description 2</description>
+        </item>
+    </chanel>
+</rss>

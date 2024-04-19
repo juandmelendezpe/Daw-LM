@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+<!ENTITY rol "cliente">
+<!ENTITY ciudad "cordoba">
+]>
+
+<personas>
+    <persona>
+        <nombre>andrea solis</nombre>
+        <mayor_de_edad></mayor_de_edad>
+        <ciudad>cordoba</ciudad>
+        <rol>cliente</rol>
+    </persona>
+    <persona>
+        <nombre>fran ruiz</nombre>
+        <mayor_de_edad></mayor_de_edad>
+        <ciudad>cordoba</ciudad>
+        <rol>cliente</rol>
+    </persona>
+</personas>
