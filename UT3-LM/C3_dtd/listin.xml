@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE listin SYSTEM "./listin.dtd">
+<listin>
+    <persona edad="48" sexo="hombre" id="ricky">
+        <nombre>RIKCI MARTYIN</nombre>
+        <email>AJFKJASDLKF@KDJFKLAJKSDL.COM</email>
+        <relacion amigo-de="leti"/>
+    </persona>
+    <persona sexo="mujer" id="leti">
+        <nombre>Leticia Casta</nombre>
+        <email>castal@micasa.com</email>
+    </persona>
+    <persona sexo="mujer" id="bea">
+        <nombre>Bea la Santa</nombre>
+        <email>bea@micasa.com</email>
+        <telefono>948858562</telefono>
+        <relacion enemigo-de="ricky"/>
+    </persona>
+</listin>

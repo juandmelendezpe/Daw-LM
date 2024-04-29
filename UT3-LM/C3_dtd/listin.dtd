@@ -1,0 +1,12 @@
+<!ELEMENT listin (persona+)>
+<!ELEMENT persona (nombre,(email| telefono)+,relacion?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT relacion EMPTY>
+<!ATTLIST persona edad CDATA #IMPLIED>
+<!ATTLIST persona sexo (hombre|mujer) #REQUIRED>
+<!ATTLIST persona id ID #REQUIRED >
+<!ATTLIST relacion amigo-de IDREFS #IMPLIED>
+<!ATTLIST relacion enemigo-de IDREFS #IMPLIED>
+
