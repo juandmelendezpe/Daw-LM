@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+    <xs:element name="registro_temperatura">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="provincia" type="xs:string"/>
+                <xs:element name="fecha">
+                    <xs:simpleType>
+                      <!-- una forma de restringir el tipo de dato a una fecha concreta
+
+                      <xs:restriction base="xs:date">
+                            <xs:minInclusive value="2019-01-01"/>
+                            <xs:maxInclusive value="2019-12-31"/>
+                        </xs:restriction>
+                    -->
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+                        </xs:pattern>
+                    </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="temperatura_minima">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:int">
+                            <xs:minInclusive value="-50"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="temperatura_maxima">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:int">
+                            <xs:maxInclusive value="50"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="incidencias">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="incidencia" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="nombre">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="lluvia"/>
+                                                <xs:enumeration value="viento"/>
+                                                <xs:enumeration value="nieve"/>
+                                                <xs:enumeration value="granizo"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name="severidad">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="alta"/>
+                                                <xs:enumeration value="media"/>
+                                                <xs:enumeration value="baja"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
