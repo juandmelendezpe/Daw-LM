@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="libros.xsd">
+<!DOCTYPE biblioteca [
+<!ELEMENT biblioteca (editorial+)>
+<!ELEMENT editorial (nombre,email)>
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT email (#PCDATA) > 
+<!ATTLIST email tipo (corporativo|personal) >
+<!ATTLIST biblioteca noNamespaceSchemaLocation CDATA #REQUIRED>
+]
+ >
+<biblioteca noNamespaceSchemaLocation="libros.xsd">
     <editorial>
         <nombre>Editorial IA</nombre>
         <email tipo ="corporativo">john@gnmail.com</email>
-        </editorial>
-        <editorial>
-            <nombre>Editorial advance</nombre>
-            <email tipo ="personal"> jane@gmail.com</email>
-        </editorial>
-        <editorial>
-            <nombre>Editorial IA</nombre>
-            <email >byby@gmail.com</email>  ç
-        </editorial>
-    </biblioteca>
+    </editorial>
+     <editorial>
+        <nombre>Editorial advance</nombre>
+        <email tipo ="personal"> jane@gmail.com</email>
+    </editorial>
+    <editorial>
+        <nombre>Editorial IA</nombre>
+        <email >byby@gmail.com</email> 
+    </editorial>
+</biblioteca>

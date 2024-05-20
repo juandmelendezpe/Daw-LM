@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE expedientes SYSTEM "./ExpedienteAcademico.dtd" >
-<!--<expedientes noNamespeceSchemalocation="./ExpedienteAcademico.xsd" >-->
-<expedientes>
+<expedientes noNamespaceSchemaLocation="./ExpedienteAcademico.xsd">
+
     <expediente>
         <titulacion>DAM</titulacion>
         <estudiante>Ainhoa Gárate</estudiante>
         <modulos>
             <modulo nombre="Sistemas" aprobado="true" curso="Primero"/>
             <modulo nombre="Lenguaje de Marcas" aprobado="true" curso="Primero"/>
-            <modulo nombre="Programación multmedia" aprobado="false" curso="Segundo"/>
+            <modulo nombre="Programación multmedia" aprobado="false" curso="segundo"/>
         </modulos>
     </expediente>
     <expediente>
@@ -16,8 +16,8 @@
         <estudiante>Ferran Soler</estudiante>
         <modulos>
             <modulo nombre="Programación" aprobado="true" curso="Primero"/>
-            <modulo nombre="Desarrollo web en cliente" aprobado="false" curso="Segundo"/>
-            <modulo nombre="Desarrollo web en servidor" aprobado="false" curso="Segundo"/>
+            <modulo nombre="Desarrollo web en cliente" aprobado="false" curso="segundo"/>
+            <modulo nombre="Desarrollo web en servidor" aprobado="false" curso="segundo"/>
         </modulos>
     </expediente>
 </expedientes>

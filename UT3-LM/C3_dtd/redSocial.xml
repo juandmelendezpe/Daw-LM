@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE redsocial[
-<!ELEMENT redsocial (usuarios+)>
-<!ELEMENT usuario (#PCDATA)>
-<!ELEMENT idcontacto (nombres,apellidos,direccion?,telefono?,email?,foto,comantarios?,bloqueados?,contactos?,grupos?)>
+<!ELEMENT redsocial (usuario+)>
+<!ELEMENT usuario (nombre,apellidos,direccion?,telefono?,email?,foto,comentarios?,bloqueados?,contactos?,grupos?)>
+<!ELEMENT nombre (#PCDATA)>
 <!ELEMENT apellidos (#PCDATA)>
 <!ELEMENT direccion (#PCDATA)>  
 <!ELEMENT telefono (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT foto (#PCDATA)>   
-<!ELEMENT comentarios (comantario+)>
-<!ELEMENT comantario (texto?,imagen?)>
+<!ELEMENT comentarios (comentario+)>
+<!ELEMENT comentario (texto?,imagen?)>
 <!ELEMENT texto (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT contactos (contacto+)>
-<!ELEMENT contacto (comentario_contacto?)>
-<!ELEMENT comentario_contacto (#PCDATA)>
-<!ELEMENT bloquedos (idcontactos+)>
-<!ELEMENT idcontactos (#PCDATA)>
+<!ELEMENT contacto (comentariocontacto?)>
+<!ELEMENT comentariocontacto (#PCDATA)>
+<!ELEMENT bloqueados (idcontacto+)>
+<!ELEMENT idcontacto (#PCDATA)>
 <!ELEMENT grupos (grupo+)>
-<!ELEMENT grupo (nombregrupo,contactos_grupo)>
+<!ELEMENT grupo (nombregrupo,contactogrupos)>
 <!ELEMENT nombregrupo (#PCDATA)>
-<!ELEMENT contactos_grupos (idcontacto+)>
+<!ELEMENT contactogrupos (idcontacto+)>
 <!ATTLIST usuario identificador ID #REQUIRED>
-<!ATTLIST usuario contraseña CDATA #REQUIRED>
+<!ATTLIST usuario contrasena CDATA >
 <!ATTLIST usuario celebridad (true|false) #REQUIRED>
 <!ATTLIST contacto identificadorcontacto IDREF #REQUIRED>
-<!ATTLIST comentarios visibilidad (publico|usuarios|contacto) #REQUIRED>
-
-
-
+<!ATTLIST comentarios visibilidad (publico|usuario|contacto) #REQUIRED>
 ]>
 <!--
     Crea el DTD y un XML de ejemplo para almacenar datos  para simular el funcionamiento de una red social,
@@ -42,50 +39,52 @@ o   Si los usuarios son celebridades, de ellos no aparecerá ni el email ni la d
 •   Además cada usuario puede tener una lista de usuarios bloqueados a fin de que no puedan contactar con él
 •   Los usuarios pueden publicar en la red comentarios, los cuales se puede hacer que los vea todo el mundo, que los vea uno o varios de los grupos de contactos del usuario o bien una lista concreta de usuarios. Los comentarios pueden incluir un texto y una imagen.
 -->
-<redsocial>
 
-    <usuarios identificador='AA' password='hola' celebridad='false' >
-        <nombres ></nombres>
+<redsocial>
+    <usuario identificador="aa" contrasena="" celebridad="false">
+        <nombre></nombre>
         <apellidos></apellidos>
         <direccion></direccion>
-        <telefono ></telefono>
-        <telefono ></telefono>
+        <telefono></telefono>
+        <telefono></telefono>
         <email></email>
-        <foto>  </foto>
-        <comentarios visibilidad='publico' > 
+        <foto></foto>
+        <comentarios visibilidad="publico">
             <comentario>
-
-                <texto> </texto> 
-            <imagen></imagen> 
-
+                <texto></texto>
+                <imagen></imagen>
             </comentario>
+            
         </comentarios>
         <bloqueados>
-            <idcontacto>    </idcontacto>
-            <idcontacto>    </idcontacto>
-
+            <idcontacto></idcontacto>
+            <idcontacto></idcontacto>
         </bloqueados>
-        
-    </usuarios>
-    <usuarios identificador='BB' password='hola' celebridad='true'>
-        <nombres></nombres>
-        <apellidos></apellidos>
-        <foto>  </foto>
         <contactos>
-            <contacto identificadorcontacto='dd'>  
-                <comentario></comentario>
+            <contacto identificadorcontacto="bb">
+                <comentariocontacto></comentariocontacto>
             </contacto>
-
         </contactos>
-        <grupos>  
+        <grupos>
             <grupo>
                 <nombregrupo></nombregrupo>
-                <contactos_grupos>
+                <contactogrupos>
                     <idcontacto></idcontacto>
                     <idcontacto></idcontacto>
-
-                </contactos_grupos>
+                </contactogrupos>
             </grupo>
-          </grupos>
-    </usuarios>
+            <grupo>
+                <nombregrupo></nombregrupo>
+                <contactogrupos>
+                    <idcontacto></idcontacto>
+                    <idcontacto></idcontacto>
+                </contactogrupos>
+            </grupo>
+        </grupos>
+    </usuario>
+    <usuario identificador="bb" contrasena="" celebridad="true">
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <foto></foto>
+    </usuario>
 </redsocial>

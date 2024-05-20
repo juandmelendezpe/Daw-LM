@@ -19,7 +19,7 @@ POR ÚLTIMO guardaremos la estrutura familiar idenficándola y recogiendo solame
     -->
 
   <familia>
-    <persona id='p2' esposa='p2' fallecido='true'>
+    <persona id='p1' esposa='p2' fallecido='true'>
         <nombre >
             pepe
         </nombre>

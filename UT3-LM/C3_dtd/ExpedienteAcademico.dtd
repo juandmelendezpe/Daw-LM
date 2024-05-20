@@ -4,7 +4,6 @@
 <!ELEMENT estudiante (#PCDATA)>
 <!ELEMENT modulos (modulo+)>
 <!ELEMENT modulo EMPTY >
-
 <!ATTLIST modulo nombre CDATA #REQUIRED>
 <!ATTLIST modulo aprobado (true|false) #REQUIRED>
 <!ATTLIST modulo curso (Primero|segundo) #REQUIRED>
