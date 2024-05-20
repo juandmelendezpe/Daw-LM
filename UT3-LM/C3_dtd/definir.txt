@@ -1,0 +1,11 @@
+1. cuando definir elementos en xml
+
+1. si el econtenido es una estructura que tiene companentes por ejemplo : contacto -> usuario , comantario
+2. si un dato que se quierer almacenar puede aparecer varias veces.
+3. si el contenido que se desa alamcenar en un texto largo.
+
+2. cuando definir atributos en xml
+
+1. si el dato sirve para idenficador de manera unica al elementos
+2. si el dato describve un a propiedad del elemento
+3. si el dato no necesita elementos hijos anidados.

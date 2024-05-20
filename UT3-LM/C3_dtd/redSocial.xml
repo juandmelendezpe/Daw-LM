@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE redsocial[
+<!ELEMENT redsocial (usuarios+)>
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT idcontacto (nombres,apellidos,direccion?,telefono?,email?,foto,comantarios?,bloqueados?,contactos?,grupos?)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>  
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>   
+<!ELEMENT comentarios (comantario+)>
+<!ELEMENT comantario (texto?,imagen?)>
+<!ELEMENT texto (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT contactos (contacto+)>
+<!ELEMENT contacto (comentario_contacto?)>
+<!ELEMENT comentario_contacto (#PCDATA)>
+<!ELEMENT bloquedos (idcontactos+)>
+<!ELEMENT idcontactos (#PCDATA)>
+<!ELEMENT grupos (grupo+)>
+<!ELEMENT grupo (nombregrupo,contactos_grupo)>
+<!ELEMENT nombregrupo (#PCDATA)>
+<!ELEMENT contactos_grupos (idcontacto+)>
+<!ATTLIST usuario identificador ID #REQUIRED>
+<!ATTLIST usuario contraseña CDATA #REQUIRED>
+<!ATTLIST usuario celebridad (true|false) #REQUIRED>
+<!ATTLIST contacto identificadorcontacto IDREF #REQUIRED>
+<!ATTLIST comentarios visibilidad (publico|usuarios|contacto) #REQUIRED>
+
+
+
+]>
+<!--
+    Crea el DTD y un XML de ejemplo para almacenar datos  para simular el funcionamiento de una red social,
+    teniendo en cuenta lo siguiente:
+•   Los usuarios de la red social se identifican con un identificador y una contraseña.
+Además se almacena de ellos:
+o   Su nombre, apellidos, dirección, teléfono (puede tener varios teléfonos) e e-mail (el e-mail no tiene que poder coincidir con el de otro usuario) y una foto
+o   Si los usuarios son celebridades, de ellos no aparecerá ni el email ni la dirección ni el teléfono.
+•   Los usuarios pueden tener una serie de contactos, que en realidad son otros usuarios. De cada contacto se puede almacenar un comentario que es personal y que sirve para describir al contacto.
+•   Los usuarios pueden organizar sus contactos en grupos de los cuales se almacena un nombre y deberemos saber los contactos que contiene. El mismo contacto puede formar parte de varios grupos.
+•   Además cada usuario puede tener una lista de usuarios bloqueados a fin de que no puedan contactar con él
+•   Los usuarios pueden publicar en la red comentarios, los cuales se puede hacer que los vea todo el mundo, que los vea uno o varios de los grupos de contactos del usuario o bien una lista concreta de usuarios. Los comentarios pueden incluir un texto y una imagen.
+-->
+<redsocial>
+
+    <usuarios identificador='AA' password='hola' celebridad='false' >
+        <nombres ></nombres>
+        <apellidos></apellidos>
+        <direccion></direccion>
+        <telefono ></telefono>
+        <telefono ></telefono>
+        <email></email>
+        <foto>  </foto>
+        <comentarios visibilidad='publico' > 
+            <comentario>
+
+                <texto> </texto> 
+            <imagen></imagen> 
+
+            </comentario>
+        </comentarios>
+        <bloqueados>
+            <idcontacto>    </idcontacto>
+            <idcontacto>    </idcontacto>
+
+        </bloqueados>
+        
+    </usuarios>
+    <usuarios identificador='BB' password='hola' celebridad='true'>
+        <nombres></nombres>
+        <apellidos></apellidos>
+        <foto>  </foto>
+        <contactos>
+            <contacto identificadorcontacto='dd'>  
+                <comentario></comentario>
+            </contacto>
+
+        </contactos>
+        <grupos>  
+            <grupo>
+                <nombregrupo></nombregrupo>
+                <contactos_grupos>
+                    <idcontacto></idcontacto>
+                    <idcontacto></idcontacto>
+
+                </contactos_grupos>
+            </grupo>
+          </grupos>
+    </usuarios>
+</redsocial>

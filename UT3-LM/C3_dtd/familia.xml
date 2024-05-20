@@ -1,0 +1,38 @@
+
+
+<!--SE DESEA GUARDAR EL ÁRBOL GENEALÓGICO DE UNA FAMILIA
+CADA PERSONA TENDRÁ UN CAMPO IDENTIFICADOR y guardaremos su nombre y fecha de nacimiento, además
+inforemaremos si es esposo o esposa relacionalo mediante su identificador.
+ 
+ADEMÁS deberás informar si la persona ya ha fallecido.
+ 
+POR ÚLTIMO guardaremos la estrutura familiar idenficándola y recogiendo solamente a los matrimonios.-->
+
+<!--familia 
+- persona  {
+     nombre(esposa|esposa)
+     fecha nacimiento
+}
+- estructura
+    fam1(id){
+
+    -->
+
+  <familia>
+    <persona id='p2' esposa='p2' fallecido='true'>
+        <nombre >
+            pepe
+        </nombre>
+        <fecha>19-15-02</fecha>
+    </persona>
+    <persona id='p2' esposa='p1' fallecido='true'>
+        <nombre >
+            pepa
+        </nombre>
+        <fecha>19-15-02</fecha>
+    </persona>
+    <estruturafamilia id='F1'>
+        <marido id='p1' />
+        <esposa id='p2' />
+    </estruturafamilia>
+  </familia>  
