@@ -41,7 +41,7 @@ o   Si los usuarios son celebridades, de ellos no aparecerá ni el email ni la d
 -->
 
 <redsocial>
-    <usuario identificador="aa" contrasena="" celebridad="false">
+    <usuario identificador="aa" contrasena="hola" celebridad="false">
         <nombre></nombre>
         <apellidos></apellidos>
         <direccion></direccion>
@@ -82,7 +82,7 @@ o   Si los usuarios son celebridades, de ellos no aparecerá ni el email ni la d
             </grupo>
         </grupos>
     </usuario>
-    <usuario identificador="bb" contrasena="" celebridad="true">
+    <usuario identificador="bb" contrasena="mundo" celebridad="true">
         <nombre></nombre>
         <apellidos></apellidos>
         <foto></foto>

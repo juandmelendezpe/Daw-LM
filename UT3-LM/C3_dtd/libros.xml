@@ -4,7 +4,7 @@
 <!ELEMENT editorial (nombre,email)>
 <!ELEMENT nombre (#PCDATA) >
 <!ELEMENT email (#PCDATA) > 
-<!ATTLIST email tipo (corporativo|personal) >
+<!ATTLIST email tipo (corporativo|personal) CDATA >
 <!ATTLIST biblioteca noNamespaceSchemaLocation CDATA #REQUIRED>
 ]
  >
